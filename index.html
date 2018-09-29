@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Hover Zoom with CSS</title>
+</head>
+<body>
+
+	<style>
+		#zoom{
+			transition: 0.5s;
+			width:250px;
+			height: 250px;
+			border-radius: 10px;
+			margin-top:70px;
+		}
+
+		/*You can change type, "active, focus, etc".*/
+		#zoom:hover{
+			transform: scale(1.5);
+		}
+	</style>
+
+
+<center>
+	<img id="zoom" src="http://www.fatihbaskaya.com/images/photo.jpg">
+</center>
+
+</body>
+</html>
